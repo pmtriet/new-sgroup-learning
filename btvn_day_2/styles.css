@@ -83,3 +83,39 @@
   .Lmao {
       padding-right: 50px;
   }
+  .flex5 {
+    /* align-items: center; */
+  margin-top: 45px;
+  margin-left: 220px;
+  font-size: 20px;
+}
+.underline{
+  border-bottom: 4px solid red;
+  padding-bottom: 5px;
+  font-weight: 900;
+}
+.lorem{
+  margin-top: 45px;
+  margin-left: 220px;
+  font-size: 20px;
+  width: 1000px;
+  height: 100px;
+  line-height: normal;
+}
+button{
+  font-size:large;
+  padding:12.5px;
+  background: transparent;
+  border: 3px solid red;
+  border-radius: 22px;
+  color:red;
+}
+button:hover{
+  color:aqua;
+  border-color: aqua;
+  background-color: brown;
+}
+.download_resume{
+  margin:auto;
+  width: fit-content;
+}
