@@ -174,3 +174,20 @@ button:hover{
   background-color: #F26464;
   transition: 0.5s ease-in-out
 }
+.workExp
+{
+  display: flex;
+  margin-top: 230px;
+  font-size: 21px;
+  width: 1000px;
+  height: 100px;
+  line-height: 33px;
+}
+div.flex1 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 10px;
+  font-size: 20px;
+}
