@@ -1,28 +1,14 @@
-/* .spinner
-{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: conic-gradient (
-        #0000 10%,
-        #8f44fd
-    )
-    -webkit-mask:
-        radial-gradial(
-            farthest_side,
-            #0000 calc(100% - 10px),
-            #000
-            0
-        );
-    animation: spin 0.8s infinite linear;
-}
-@keyframes spin {
-    to {
-        transform: rotate(lturn);
-    }
-    
-} */
-    .loading {
+:root {
+    --background-color: #f6a24a;
+    /* --spinner-color: #fff; */
+  }
+  body {
+    background: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.loading {
         position: relative;
         width: 100px;
         height: 100px;
