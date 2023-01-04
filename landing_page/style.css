@@ -132,16 +132,19 @@ body {
     position: relative;
     background: rgb(91,90,90);
     background: linear-gradient(14deg, rgba(91,90,90,1) 0%, rgba(0,0,0,1) 59%);
+    width: 
   }
   .headphone_pic {
     position: absolute;
     right: 100px;
     top: 80px;
+    height: 5px;
+    width: auto;
   }
   .button_readMore{
     position: absolute;
     color: #fff;
-    top: 470px;
+    top: 400px;
     left: 150px;
     background-color: #ff8a73;
     padding: 14px 40px;
@@ -149,13 +152,13 @@ body {
   }
   .button_readMore:hover{
     transition: 0.5s;
-      box-shadow: 0px 6px 20px 0px #f19e8d;
+    box-shadow: 0px 6px 20px 0px #f19e8d;
   }
   
   .button_contactUs{
     position: absolute;
     color: #fff;
-    top: 470px;
+    top: 400px;
     left: 340px;
     background-color: 
     #5580ff;
@@ -164,13 +167,13 @@ body {
   }
   .button_contactUs:hover{
     transition: 0.5s;
-      box-shadow: 0px 6px 20px 0px 
+    box-shadow: 0px 6px 20px 0px 
       #9fb7ff;
   }
   .pushing{
     color: #fff;
     font-weight: 300;
-    font-size: 3.5em;
+    font-size: 34px;
     top: 200px;
     left: 150px;
     position: absolute;
@@ -178,7 +181,21 @@ body {
   .lorem{
     color: #aeaeae;
     font-weight: 300;
-    top: 380px;
+    font-size: 18px;
+    top: 320px;
     left: 150px;
     position: absolute;
+  }
+  .music_inspire{
+    display: flex;
+    top: 700px;
+    left: 150px;
+    position: absolute;
+  }
+  .music_text{
+    color: #58468C;
+    font-weight: 300;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
   }
