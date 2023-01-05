@@ -132,7 +132,7 @@ body {
     position: relative;
     background: rgb(91,90,90);
     background: linear-gradient(14deg, rgba(91,90,90,1) 0%, rgba(0,0,0,1) 59%);
-    width: 
+    
   }
   .headphone_pic {
     position: absolute;
@@ -208,11 +208,52 @@ body {
     
   }
   .second_text1{
+    margin-left: 130px;
     color: #58468C;
     font-size: 35px;
   }
   .second_text2{
     color: #716C80;
     font-size: 20px;
-    margin: 14px 0px 0px;
+    margin: 14px 0px 0px 230px;
+  }
+  .thirdSec{
+    display: flex;
+    /* vertical-align: baseline; */
+    margin-top: 130px;
+    /* position: relative; */
+  }
+  .thirdSec__greatAdvices{
+    margin-left: 130px;
+  }
+  .button_advic e{
+
+  }
+  .thirdSec__support{
+
+  }
+  .button_headphone{
+
+  }
+  .thirdSec__optimalChoice{
+
+  }
+  .button_thumbsup{
+
+  }
+  .thirdSec__marketAnalysis{
+
+  }
+  .button_chart{
+
+  }
+  .thirdSec__mainText{
+    margin-top: px;
+    margin-left: 130px;
+    color: #58468C;
+    font-size: 25px;
+  }
+  .thirdSec__subText{
+    color: #716C80;
+    font-size: 19px;
   }
