@@ -130,16 +130,18 @@ body {
   }
   .firstSec{
     position: relative;
-    background: rgb(91,90,90);
-    background: linear-gradient(14deg, rgba(91,90,90,1) 0%, rgba(0,0,0,1) 59%);
+    /* background: rgb(91,90,90);
+    background: linear-gradient(14deg, rgba(91,90,90,1) 0%, rgba(0,0,0,1) 59%); */
+    background: url('https://foton.qodeinteractive.com/wp-content/uploads/2018/07/home-product-img.png') center center / cover no-repeat transparent;
     
   }
   .headphone_pic {
     position: absolute;
-    right: 100px;
-    top: 80px;
-    height: 5px;
-    width: auto;
+    right: 30px;
+    top: 0%;
+    /* height: 5px; */
+    width: 500px;
+    height: 432px;
   }
   .button_readMore{
     position: absolute;
@@ -188,7 +190,7 @@ body {
   }
   .music_inspire{
     display: flex;
-    top: 700px;
+    top: 0px;
     left: 150px;
     position: absolute;
   }
@@ -200,6 +202,7 @@ body {
     margin-top: 30px;
   }
   .secondSec{
+    background: url('https://foton.qodeinteractive.com/wp-content/uploads/2018/06/h-product-background.jpg');
     margin-top: 150px;
     display: flex;
     position: relative;
@@ -217,43 +220,45 @@ body {
     font-size: 20px;
     margin: 14px 0px 0px 230px;
   }
-  .thirdSec{
+  .fouthSec{
+    background: url('https://foton.qodeinteractive.com/wp-content/uploads/2018/06/background-2.jpg');
     display: flex;
     /* vertical-align: baseline; */
     margin-top: 130px;
     /* position: relative; */
   }
-  .thirdSec__greatAdvices{
+  .fourthSec__greatAdvices{
     margin-left: 130px;
   }
-  .button_advic e{
+  .button_advice{
 
   }
-  .thirdSec__support{
+  .fourthSec__support{
 
   }
   .button_headphone{
 
   }
-  .thirdSec__optimalChoice{
+  .fourthSec__optimalChoice{
 
   }
   .button_thumbsup{
 
   }
-  .thirdSec__marketAnalysis{
+  .fourthSec__marketAnalysis{
 
   }
   .button_chart{
 
   }
-  .thirdSec__mainText{
+  .fourthSec__mainText{
+    justify-content: center;
     margin-top: px;
     margin-left: 130px;
     color: #58468C;
     font-size: 25px;
   }
-  .thirdSec__subText{
+  .fourthSec__subText{
     color: #716C80;
     font-size: 19px;
   }
