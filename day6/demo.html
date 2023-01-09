@@ -8,24 +8,23 @@
   </head>
   <body>
     <script>
-      function getName() {
-        let name = prompt("Nhập tên của bạn : ")
-        if(!name) return getName()
-        return name;
-      }
-      let name
-      if(localStorage.getItem("name")) {
-        name = localStorage.getItem("name")
-      } else {
-        name = getName()
-        localStorage.setItem("name", name)
-      }
-      document.write(Hello ${name});
-      localStorage.setItem("name" , name)
+      //code error
+      // function getinfo() {
+      //   let name = "";
+      //   if (localStorage.getxItem("name") == null) {
+      //     do {
+      //       name = prompt("Enter your name");
+      //       localStorage.setItem("name", name);
+      //     } while (name == null || name == "");
+      //   } else {
+      //     name = localStorage.getItem("name");
+      //   }
+      //   document.write(`Hello ${name}`);
+      //   document.getElementById("name").innerHTML = name;
+      // }
 
-
-      // hello();
+      // getinfo();
     </script>
   </body>
-  <!-- <script src="./script.js"></script> -->
+  
 </html>
